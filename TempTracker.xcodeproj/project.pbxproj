@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5E23B7E6620E1BA999277E /* Pods_TempTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C54EA40511FA299D06E106 /* Pods_TempTracker.framework */; };
 		D9EDFD3E2423E3CE0028A4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */; };
 		D9EDFD422423E3CE0028A4D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD412423E3CE0028A4D0 /* ViewController.swift */; };
 		D9EDFD452423E3CE0028A4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EDFD432423E3CE0028A4D0 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64C54EA40511FA299D06E106 /* Pods_TempTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974BD2579AFAF63451C0BB74 /* Pods-TempTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTracker.debug.xcconfig"; path = "Target Support Files/Pods-TempTracker/Pods-TempTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		AC7448C78F5C7B79A67A11B2 /* Pods-TempTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTracker.release.xcconfig"; path = "Target Support Files/Pods-TempTracker/Pods-TempTracker.release.xcconfig"; sourceTree = "<group>"; };
 		D9EDFD3A2423E3CE0028A4D0 /* TempTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9EDFD412423E3CE0028A4D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E23B7E6620E1BA999277E /* Pods_TempTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9226B2E950FE82B45BF002F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974BD2579AFAF63451C0BB74 /* Pods-TempTracker.debug.xcconfig */,
+				AC7448C78F5C7B79A67A11B2 /* Pods-TempTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D59A3589382087AFCA8849BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C54EA40511FA299D06E106 /* Pods_TempTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9EDFD312423E3CE0028A4D0 = {
 			isa = PBXGroup;
 			children = (
 				D9EDFD3C2423E3CE0028A4D0 /* TempTracker */,
 				D9EDFD3B2423E3CE0028A4D0 /* Products */,
+				C9226B2E950FE82B45BF002F /* Pods */,
+				D59A3589382087AFCA8849BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9EDFD4E2423E3D00028A4D0 /* Build configuration list for PBXNativeTarget "TempTracker" */;
 			buildPhases = (
+				7563BC2CFB2CEB3AA744AB23 /* [CP] Check Pods Manifest.lock */,
 				D9EDFD362423E3CE0028A4D0 /* Sources */,
 				D9EDFD372423E3CE0028A4D0 /* Frameworks */,
 				D9EDFD382423E3CE0028A4D0 /* Resources */,
@@ -129,6 +154,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7563BC2CFB2CEB3AA744AB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9EDFD362423E3CE0028A4D0 /* Sources */ = {
@@ -212,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -266,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -278,6 +328,7 @@
 		};
 		D9EDFD4F2423E3D00028A4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974BD2579AFAF63451C0BB74 /* Pods-TempTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +348,7 @@
 		};
 		D9EDFD502423E3D00028A4D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7448C78F5C7B79A67A11B2 /* Pods-TempTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

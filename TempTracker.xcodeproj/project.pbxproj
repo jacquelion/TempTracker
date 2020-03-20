@@ -14,6 +14,15 @@
 		D967846624244DC4002DA9D3 /* TTRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846524244DC4002DA9D3 /* TTRadioButton.swift */; };
 		D967846824244E7F002DA9D3 /* TTBinaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */; };
 		D967846A24247F60002DA9D3 /* TTSymptomsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */; };
+		D967846D24252DD7002DA9D3 /* TTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846C24252DD7002DA9D3 /* TTConstants.swift */; };
+		D967847024252EA1002DA9D3 /* TTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846F24252EA1002DA9D3 /* TTManager.swift */; };
+		D96784792425304F002DA9D3 /* TTNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96784782425304F002DA9D3 /* TTNetworkManager.swift */; };
+		D967847B24253095002DA9D3 /* TTTempRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967847A24253095002DA9D3 /* TTTempRecord.swift */; };
+		D967847D24253469002DA9D3 /* TTHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967847C24253469002DA9D3 /* TTHistoryViewController.swift */; };
+		D967847F242537B7002DA9D3 /* TTTempRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967847E242537B7002DA9D3 /* TTTempRecordTableViewCell.swift */; };
+		D9678481242539D0002DA9D3 /* TTHistoryErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9678480242539D0002DA9D3 /* TTHistoryErrorView.swift */; };
+		D967848324253A24002DA9D3 /* TTHistoryErrorViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967848224253A24002DA9D3 /* TTHistoryErrorViewViewModel.swift */; };
+		D967848524253B4E002DA9D3 /* TTTempRecordTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967848424253B4E002DA9D3 /* TTTempRecordTableViewCellViewModel.swift */; };
 		D9EDFD3E2423E3CE0028A4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */; };
 		D9EDFD422423E3CE0028A4D0 /* TTRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */; };
 		D9EDFD452423E3CE0028A4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EDFD432423E3CE0028A4D0 /* Main.storyboard */; };
@@ -31,6 +40,15 @@
 		D967846524244DC4002DA9D3 /* TTRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRadioButton.swift; sourceTree = "<group>"; };
 		D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTBinaryComponent.swift; sourceTree = "<group>"; };
 		D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSymptomsComponent.swift; sourceTree = "<group>"; };
+		D967846C24252DD7002DA9D3 /* TTConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTConstants.swift; sourceTree = "<group>"; };
+		D967846F24252EA1002DA9D3 /* TTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTManager.swift; sourceTree = "<group>"; };
+		D96784782425304F002DA9D3 /* TTNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTNetworkManager.swift; sourceTree = "<group>"; };
+		D967847A24253095002DA9D3 /* TTTempRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTempRecord.swift; sourceTree = "<group>"; };
+		D967847C24253469002DA9D3 /* TTHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHistoryViewController.swift; sourceTree = "<group>"; };
+		D967847E242537B7002DA9D3 /* TTTempRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTempRecordTableViewCell.swift; sourceTree = "<group>"; };
+		D9678480242539D0002DA9D3 /* TTHistoryErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHistoryErrorView.swift; sourceTree = "<group>"; };
+		D967848224253A24002DA9D3 /* TTHistoryErrorViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHistoryErrorViewViewModel.swift; sourceTree = "<group>"; };
+		D967848424253B4E002DA9D3 /* TTTempRecordTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTempRecordTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		D9EDFD3A2423E3CE0028A4D0 /* TempTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRecordViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +87,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D967846B24252DB6002DA9D3 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */,
+				D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */,
+				D9678461242433A0002DA9D3 /* TTDatePicker.swift */,
+				D967846324243DCD002DA9D3 /* TTTemperatureComponent.swift */,
+				D967845F24242F43002DA9D3 /* TTCheckmarkButton.swift */,
+				D967846524244DC4002DA9D3 /* TTRadioButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		D967846E24252DDB002DA9D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D967846C24252DD7002DA9D3 /* TTConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D967847124252EA8002DA9D3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D967846F24252EA1002DA9D3 /* TTManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D967847224252FCC002DA9D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */,
+				D967847C24253469002DA9D3 /* TTHistoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D967847324252FDE002DA9D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D967848224253A24002DA9D3 /* TTHistoryErrorViewViewModel.swift */,
+				D967848424253B4E002DA9D3 /* TTTempRecordTableViewCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D967847524252FFC002DA9D3 /* NetworkRequests */ = {
+			isa = PBXGroup;
+			children = (
+				D96784782425304F002DA9D3 /* TTNetworkManager.swift */,
+			);
+			path = NetworkRequests;
+			sourceTree = "<group>";
+		};
+		D96784762425300C002DA9D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D967847E242537B7002DA9D3 /* TTTempRecordTableViewCell.swift */,
+				D9678480242539D0002DA9D3 /* TTHistoryErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D967847724253023002DA9D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D967847A24253095002DA9D3 /* TTTempRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D9EDFD312423E3CE0028A4D0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,14 +180,15 @@
 		D9EDFD3C2423E3CE0028A4D0 /* TempTracker */ = {
 			isa = PBXGroup;
 			children = (
+				D967847724253023002DA9D3 /* Models */,
+				D96784762425300C002DA9D3 /* Views */,
+				D967847224252FCC002DA9D3 /* ViewControllers */,
+				D967847324252FDE002DA9D3 /* ViewModels */,
+				D967847524252FFC002DA9D3 /* NetworkRequests */,
 				D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */,
-				D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */,
-				D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */,
-				D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */,
-				D9678461242433A0002DA9D3 /* TTDatePicker.swift */,
-				D967846324243DCD002DA9D3 /* TTTemperatureComponent.swift */,
-				D967845F24242F43002DA9D3 /* TTCheckmarkButton.swift */,
-				D967846524244DC4002DA9D3 /* TTRadioButton.swift */,
+				D967847124252EA8002DA9D3 /* Manager */,
+				D967846E24252DDB002DA9D3 /* Helpers */,
+				D967846B24252DB6002DA9D3 /* UIComponents */,
 				D9EDFD432423E3CE0028A4D0 /* Main.storyboard */,
 				D9EDFD462423E3D00028A4D0 /* Assets.xcassets */,
 				D9EDFD482423E3D00028A4D0 /* LaunchScreen.storyboard */,
@@ -221,14 +312,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9678481242539D0002DA9D3 /* TTHistoryErrorView.swift in Sources */,
+				D967847F242537B7002DA9D3 /* TTTempRecordTableViewCell.swift in Sources */,
 				D967846824244E7F002DA9D3 /* TTBinaryComponent.swift in Sources */,
 				D967846024242F43002DA9D3 /* TTCheckmarkButton.swift in Sources */,
 				D967846424243DCD002DA9D3 /* TTTemperatureComponent.swift in Sources */,
+				D967848324253A24002DA9D3 /* TTHistoryErrorViewViewModel.swift in Sources */,
+				D967847024252EA1002DA9D3 /* TTManager.swift in Sources */,
 				D967846A24247F60002DA9D3 /* TTSymptomsComponent.swift in Sources */,
 				D9678462242433A0002DA9D3 /* TTDatePicker.swift in Sources */,
+				D967847B24253095002DA9D3 /* TTTempRecord.swift in Sources */,
 				D967846624244DC4002DA9D3 /* TTRadioButton.swift in Sources */,
 				D9EDFD422423E3CE0028A4D0 /* TTRecordViewController.swift in Sources */,
+				D96784792425304F002DA9D3 /* TTNetworkManager.swift in Sources */,
+				D967847D24253469002DA9D3 /* TTHistoryViewController.swift in Sources */,
+				D967846D24252DD7002DA9D3 /* TTConstants.swift in Sources */,
 				D9EDFD3E2423E3CE0028A4D0 /* AppDelegate.swift in Sources */,
+				D967848524253B4E002DA9D3 /* TTTempRecordTableViewCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

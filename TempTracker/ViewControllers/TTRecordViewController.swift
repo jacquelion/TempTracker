@@ -22,6 +22,14 @@ class TTRecordViewController: UIViewController {
         setupFormFields()
         setupAppearance()
         setupConstraints()
+        
+        let historyButton = UIBarButtonItem(title: "History", style: .plain, target: self, action: #selector(historyButtonTapped))
+        self.navigationItem.setRightBarButton(historyButton, animated: true)
+    }
+    
+    @objc func historyButtonTapped() {
+        let historyViewController = TTHistoryViewController()
+        self.navigationController?.pushViewController(historyViewController, animated: true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -153,6 +161,11 @@ class TTRecordViewController: UIViewController {
     }
     
     func logEntry() {
+        let uuid = "1234"
+        
+//        let record = TTTempRecord(temp: (tempField.tempTextField.text! as NSString).floatValue, isFarenheit: true, canWork: true, symptoms: [TTSymptomType.cough], latCoord: userLocation!.latitude, longCoord: userLocation!.longitude, dayTimeLogged: Date(), dayTimeOfTempTaken: dateComponent.datePicker.date)
+//        TTCacheManager.shared.setObject(record, forKey: uuid)
+        
         print("Date: \(dateComponent.datePicker.date)")
         print("Temp: \(String(describing: tempField.tempTextField.text)) \(tempPickerData[tempField.tempTypePicker.selectedRow(inComponent: 0)])")
         print("Can work? \(binaryPickerData[canWorkBox.binaryPicker.selectedRow(inComponent: 0)])")

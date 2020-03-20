@@ -7,5 +7,7 @@ target 'TempTracker' do
   use_frameworks!
 
   # Pods for TempTracker
+    pod 'SnapKit', '~> 5.0'
 
+    
 end

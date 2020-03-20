@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE5E23B7E6620E1BA999277E /* Pods_TempTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C54EA40511FA299D06E106 /* Pods_TempTracker.framework */; };
+		D967846024242F43002DA9D3 /* TTCheckmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967845F24242F43002DA9D3 /* TTCheckmarkButton.swift */; };
+		D9678462242433A0002DA9D3 /* TTDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9678461242433A0002DA9D3 /* TTDatePicker.swift */; };
+		D967846424243DCD002DA9D3 /* TTTemperatureComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846324243DCD002DA9D3 /* TTTemperatureComponent.swift */; };
+		D967846624244DC4002DA9D3 /* TTRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846524244DC4002DA9D3 /* TTRadioButton.swift */; };
+		D967846824244E7F002DA9D3 /* TTBinaryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */; };
+		D967846A24247F60002DA9D3 /* TTSymptomsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */; };
 		D9EDFD3E2423E3CE0028A4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */; };
-		D9EDFD422423E3CE0028A4D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD412423E3CE0028A4D0 /* ViewController.swift */; };
+		D9EDFD422423E3CE0028A4D0 /* TTRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */; };
 		D9EDFD452423E3CE0028A4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EDFD432423E3CE0028A4D0 /* Main.storyboard */; };
 		D9EDFD472423E3D00028A4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EDFD462423E3D00028A4D0 /* Assets.xcassets */; };
 		D9EDFD4A2423E3D00028A4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EDFD482423E3D00028A4D0 /* LaunchScreen.storyboard */; };
@@ -19,9 +25,15 @@
 		64C54EA40511FA299D06E106 /* Pods_TempTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		974BD2579AFAF63451C0BB74 /* Pods-TempTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTracker.debug.xcconfig"; path = "Target Support Files/Pods-TempTracker/Pods-TempTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7448C78F5C7B79A67A11B2 /* Pods-TempTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTracker.release.xcconfig"; path = "Target Support Files/Pods-TempTracker/Pods-TempTracker.release.xcconfig"; sourceTree = "<group>"; };
+		D967845F24242F43002DA9D3 /* TTCheckmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCheckmarkButton.swift; sourceTree = "<group>"; };
+		D9678461242433A0002DA9D3 /* TTDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTDatePicker.swift; sourceTree = "<group>"; };
+		D967846324243DCD002DA9D3 /* TTTemperatureComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTemperatureComponent.swift; sourceTree = "<group>"; };
+		D967846524244DC4002DA9D3 /* TTRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRadioButton.swift; sourceTree = "<group>"; };
+		D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTBinaryComponent.swift; sourceTree = "<group>"; };
+		D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSymptomsComponent.swift; sourceTree = "<group>"; };
 		D9EDFD3A2423E3CE0028A4D0 /* TempTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9EDFD412423E3CE0028A4D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTRecordViewController.swift; sourceTree = "<group>"; };
 		D9EDFD442423E3CE0028A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9EDFD462423E3D00028A4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9EDFD492423E3D00028A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				D9EDFD3D2423E3CE0028A4D0 /* AppDelegate.swift */,
-				D9EDFD412423E3CE0028A4D0 /* ViewController.swift */,
+				D9EDFD412423E3CE0028A4D0 /* TTRecordViewController.swift */,
+				D967846724244E7F002DA9D3 /* TTBinaryComponent.swift */,
+				D967846924247F60002DA9D3 /* TTSymptomsComponent.swift */,
+				D9678461242433A0002DA9D3 /* TTDatePicker.swift */,
+				D967846324243DCD002DA9D3 /* TTTemperatureComponent.swift */,
+				D967845F24242F43002DA9D3 /* TTCheckmarkButton.swift */,
+				D967846524244DC4002DA9D3 /* TTRadioButton.swift */,
 				D9EDFD432423E3CE0028A4D0 /* Main.storyboard */,
 				D9EDFD462423E3D00028A4D0 /* Assets.xcassets */,
 				D9EDFD482423E3D00028A4D0 /* LaunchScreen.storyboard */,
@@ -99,6 +117,7 @@
 				D9EDFD362423E3CE0028A4D0 /* Sources */,
 				D9EDFD372423E3CE0028A4D0 /* Frameworks */,
 				D9EDFD382423E3CE0028A4D0 /* Resources */,
+				7403691444607D8C38723828 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +175,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7403691444607D8C38723828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TempTracker/Pods-TempTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TempTracker/Pods-TempTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TempTracker/Pods-TempTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7563BC2CFB2CEB3AA744AB23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,7 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9EDFD422423E3CE0028A4D0 /* ViewController.swift in Sources */,
+				D967846824244E7F002DA9D3 /* TTBinaryComponent.swift in Sources */,
+				D967846024242F43002DA9D3 /* TTCheckmarkButton.swift in Sources */,
+				D967846424243DCD002DA9D3 /* TTTemperatureComponent.swift in Sources */,
+				D967846A24247F60002DA9D3 /* TTSymptomsComponent.swift in Sources */,
+				D9678462242433A0002DA9D3 /* TTDatePicker.swift in Sources */,
+				D967846624244DC4002DA9D3 /* TTRadioButton.swift in Sources */,
+				D9EDFD422423E3CE0028A4D0 /* TTRecordViewController.swift in Sources */,
 				D9EDFD3E2423E3CE0028A4D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
